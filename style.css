@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+    background-color: #C9B59C;
+    color: black;
+    text-align: center;
+    padding: 40px;
+}
+
+.navbar__title {
+    font-size: 50px;
+}
+
+.navbar__desc {
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+.container-tab{
+    background-color: #EFE9E3;
+    text-align: center;
+    padding: 10px;
+}
+
+.container-tab__box {
+    display: inline-block;
+    text-align: center;
+    border: solid black 2px;
+    height: 310px;
+    width: 200px;
+    vertical-align: top;
+    border-radius: 4px;
+}
+
+.container-tab__box img {
+    height: 200px;
+    width: 200px;
+}
+
+.container-tab__box:hover {
+    background-color: #D9CFC7;
+}
+
+.container-tab__box__button {
+    background-color: #EFE9E3;
+    border: none;
+    border: 2px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.container-tab__box__button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.contact {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact__form {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.contact__form__input {
+    border: none;
+    padding: 2px;
+}
+
+.contact__button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    border: 2px solid white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 5px;
+    border-radius: 30px;
+}
+
+
+
+.contact__button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
